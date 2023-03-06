@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-
+import AdminVue from '@/views/Admin.vue'
 const routes = [
   {
     path: '/',
@@ -9,9 +8,9 @@ const routes = [
     component: Home
   },
   {
-    path:'/about',
-    name: 'AboutPage',
-    component: About
+    path:'/admin',
+    name:'AdminVue',
+    component:AdminVue
   }
   // 添加其他路由配置
 ]
